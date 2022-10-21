@@ -10,7 +10,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding: 0px 240px 0px 240px;
+    padding: 8px 240px 0px 240px;
 }
 
 h3 {
@@ -46,9 +46,9 @@ a {
 .introduction {
     display: flex;
     flex-direction: column;
-    flex: 1 1 0;
     justify-content: space-around;
     gap: 8px;
+    flex-basis: 100%;
 }
 
 button {    
@@ -61,16 +61,87 @@ button {
     padding: 4px 20px 4px 20px;
 }
 
-.placeholder {
+.gafa {
     display: flex;
-    flex: 1 1 0;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 100%;
+}
+
+.second-container {
+    text-align: center;
+    padding: 20px 300px 60px 300px;
+}
+
+.gallery {
+    display: flex;
     justify-content: center;
-    background-color: gray;
-    height: 185.600px;
+    padding: 20px;
+}
+
+.card {
+    justify-content: center;
+    flex: 1;
+    gap: 16px;
+}
+
+h6 {
+    margin: 0px;
+    padding: 0px 16px 0px 16px;
+    color: gray;
+
+}
+
+.third-container {
+    background-color: #e5e7eb;
+    padding: 60px 380px 40px 380px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.signature {
+    text-align: end;
+    font-weight: 700;
+}
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 240px 80px 240px;
+}
+
+.bye {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    justify-content: space-around;
+    padding: 30px 120px 40px 120px;
+}
+
+.action {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
     align-items: center;
 }
 
-h1, p {
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h3, p {
     margin: 0%;
 }
 
@@ -80,7 +151,9 @@ img {
 }
 
 .footer {
+    text-align: center;
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
+    padding: 30px 120px 30px 120px;
 }
